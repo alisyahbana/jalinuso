@@ -1,0 +1,4 @@
+[06-May-2014 00:00:02 Asia/Jakarta] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/bimbelon/public_html/jalinuso/files/detail_gangguan.php on line 42
+[06-May-2014 00:00:26 Asia/Jakarta] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/bimbelon/public_html/jalinuso/files/detail_gangguan.php on line 42
+[06-May-2014 00:00:43 Asia/Jakarta] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/bimbelon/public_html/jalinuso/files/detail_gangguan.php on line 43
+[11-May-2014 21:08:42 Asia/Jakarta] PHP Warning:  unlink() [<a href='function.unlink'>function.unlink</a>]: http does not allow unlinking in /home/bimbelon/public_html/jalinuso/files/delete_gangguan.php on line 14
