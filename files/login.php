@@ -40,7 +40,7 @@ if(isset($_POST['commit'])){
 	
 	/* ambil variabel */
 	$user_id = $_REQUEST['username'];
-	$pass = ($_REQUEST['password']);
+	$pass = md5($_REQUEST['password']);
 	
 	/*validasi*/
 	$error = 0;

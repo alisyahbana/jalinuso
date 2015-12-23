@@ -123,9 +123,9 @@ else {
 					if(!empty($_GET['list'])){
 						echo "Menampilkan Hasil untuk Provinsi : <a href='?list=$_GET[list]'>$_GET[list]</a>";
 					}
-if($_GET['page'] == "gangguan"){
- echo "Menampilkan <a href='/?page=gangguan'>Daftar Gangguan</a>";
-}
+// if($_GET['page'] == "gangguan"){
+//  echo "Menampilkan <a href='/?page=gangguan'>Daftar Gangguan</a>";
+// }
 				?>
 			</span>
 			<span id="menu_right">

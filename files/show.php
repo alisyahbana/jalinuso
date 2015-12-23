@@ -85,8 +85,8 @@ for($page = 1; $page <= $jumPage; $page++)
          if ((($page >= $noPage - 3) && ($page <= $noPage + 3)) || ($page == 1) || ($page == $jumPage)) 
          {   
 
-           if (($showPage == 1) && ($page != 2))  echo "..."; 
-            if (($showPage != ($jumPage - 1)) && ($page == $jumPage))  echo "...";
+           // if (($showPage == 1) && ($page != 2))  echo "..."; 
+           //  if (($showPage != ($jumPage - 1)) && ($page == $jumPage))  echo "...";
             if ($page == $noPage) echo " <b>".$page."</b> ";
             else echo " <a href='".$_SERVER['PHP_SELF']."?page=home&id=".$page."'>".$page."</a> ";
             $showPage = $page;   
